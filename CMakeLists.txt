@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15)
+project(Omni CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+file(GLOB SRC src/*.cpp)
+add_executable(OmniExp WIN32 ${SRC})
+target_link_libraries(OmniExp comctl32 uxtheme dwmapi gdi32 user32 kernel32)
