@@ -1,4 +1,4 @@
-# Omni
+# Omni https://discord.gg/fJwhfSsRv9
 
 **Omni** is a lightweight, read-only Instance Explorer for Roblox, with a dark, Dex-style interface. It attaches to a running Roblox client, walks the `DataModel` in memory, and shows the instance tree and the properties of the selected instance, all in a native Win32 app with no external dependencies.
 
