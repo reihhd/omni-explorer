@@ -142,7 +142,3 @@ Omni/
 | "Missing required offset: ..." | Your offsets file lacks one of the required fields listed above. |
 | Empty tree or garbage names | Offsets are outdated; update `offsets.json` (watch for the "Offsets mismatch" warning). |
 | `g++ was not found in PATH` | Install MinGW-w64 (x86_64) and open a **new** terminal. |
-
-## Disclaimer
-
-Omni reads the memory of another process. Use it only on software and in environments where that is permitted, and check Roblox's Terms of Use before running it against a live client. It is provided as-is, without warranty, and offsets may break at any time when Roblox updates.
